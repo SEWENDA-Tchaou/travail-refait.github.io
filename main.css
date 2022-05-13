@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+@media screen and (max-width:100px) {
+    .image_page{
+        width: 400px;
+    }
+}
+.image_page{
+    width: 100%;
+    height: 100%;
+ }
+@media screen and (max-width: 100%) {
+    #en-tête{
+        width: 400px;
+    }
+}
+ #en-tête{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     position: fixed;
+     background-color:  white;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+ }
+
+ nav{
+     margin-top: 35px;
+      word-spacing: 4px;
+      margin-right: 200px;
+      font-size: 25px;
+      border: 4px;
+      
+ }
+
+ a{
+     color: black;
+     text-decoration: none;
+     padding: 20px;
+ }
+
+ .logo{
+     margin-left: 200px;
+     margin-top: 15px;
+ }
+/*
+ .fieldset1{
+     margin: 0;
+     border: none;
+     padding: 0;
+     margin-right: 0;
+ }
