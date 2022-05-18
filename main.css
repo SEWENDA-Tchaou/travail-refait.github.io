@@ -9,19 +9,22 @@ body{
    
    #en-tête{
        width: auto;
+       
    }
     
-    }
 }
 
 .image_page{
-   width: 100%;
-    position: relative;
- }
+    margin: auto;
+    /* position: absolute; */
+    width: 100%;
+}
 
 header{
+    background-image: url('img/maintenancier.jpg');
     height: 700px;
     width: 100%;
+    background-size: cover;
     
 }
 
@@ -29,8 +32,8 @@ header{
     background-color: rgba(248, 245, 245, 0.7);
     width: 600px;
     height: 100px;
-    position: absolute;
-    top: 40%; left: 30%;
+   margin-top: 4%; 
+   margin-left: 30%;
     font-size: 40px;
 }
 
@@ -53,18 +56,19 @@ header{
      position: fixed;
      background-color:  white;
      margin: 0;
+     margin-top: -60px;
      padding: 0;
      width: 100%;
+
  }
 
  nav{
-     margin-top: 35px;
+      margin: auto;
       word-spacing: 4px;
       margin-right: 200px;
       font-size: 25px;
       border: 4px;
-      
- }
+    }
 
  a{
      color: black;
@@ -79,6 +83,7 @@ header{
 
  .title_section1{
      text-align: center;
+     margin-top: 60px;
  }
 
  .our_services{
@@ -94,6 +99,31 @@ header{
  .services1{
      background-color: dodgerblue;
      margin-left: 5%;
+ }
+
+ @media screen and (max-width: 980px) {
+     
+    .services1_parc{
+        width: 340px;
+        margin-left: 40px;
+    }
+
+    .img_parc{
+        width: 340px;
+    }
+
+    .temoignage{
+        /*width: 256px;*/
+        margin-left: 10px;
+    }
+
+    .temoignage_bloc{
+        padding-left: none;
+    }
+
+    .temoin1{
+        width: 240px;
+    }
  }
 
  .services1_parc{
